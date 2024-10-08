@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Responder
+comment0.text=\n\ The\ responder\ class\ represents\ a\ response\ generator\ object.\n\ It\ is\ used\ to\ generate\ an\ automatic\ response\ to\ an\ input\ string.\n\ \n\ @original-author\ \ \ \ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\n\ @last\ edit\ by\ \ \ \ \ \ \ \ Mario\ Schuetz\n\ @version\ \ \ \ 0.2\ (2015-12-11)\n
+comment1.params=
+comment1.target=Responder()
+comment1.text=\n\ Construct\ a\ Responder\n\ generating\ the\ answer-Array\ and\ keyword-HashMap\n
+comment2.params=input
+comment2.target=java.lang.String\ generateResponse(java.lang.String)
+comment2.text=\n\ Generate\ a\ response.\n\ @return\ \ \ A\ string\ that\ should\ be\ displayed\ as\ the\ response\n\ @param\ \ \ ai\ \ answer-index\n\ @param\ \ \ lastAnswer\ \ stores\ last\ answer-index,\ so\ it\ does\ not\ show\ up\ twice\ in\ row\n
+comment3.params=
+comment3.target=void\ answers()
+comment3.text=\n\ Setting\ up\ an\ Array\ with\ potential\ answers\n
+comment4.params=
+comment4.target=void\ keywordlist()
+comment4.text=\n\ setting\ up\ a\ HashMap\ with\ potential\ keywords\n
+numComments=5
